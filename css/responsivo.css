@@ -1,0 +1,160 @@
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+    .introducao  {
+        background: url("../img/bg.jpg") no-repeat center;
+        background-size: cover;
+        padding: 20px;
+        margin-top: 90px ;
+    }
+    .quote-externo p {
+        margin: 20px auto;
+    }
+    .pagina-produto .container .item-produto {
+        height: 500px;
+        margin: 0 auto;
+    }
+    .produtos {
+       width: 235px;
+    }
+    .text-passeio {
+        width: 235px;
+        height: 130px;
+    }
+
+    .portifolio-btn {
+        color: #fff;
+        margin-top: 550px;
+    }
+    .pagina-produto .container .item-produto .simbolo  {
+        height: 201px;
+    }
+    .pagina-produto .container .item-produto .simbolo img {
+        margin: 30px 35px;
+    }
+    .pagina-produto .container .item-produto h2  {
+        top: 90px;
+        left: -320px;
+    }
+    .pagina-produto .container .item-produto h2::after,
+    .pagina-produto .container .item-produto h2::before {
+        margin: 10px 540px;
+    }
+    .pagina-produto .container .item-produto .info {   
+        width: 363px;
+        height: 221px;
+    }
+    .pagina-produto .container .item-produto .info p {
+        margin: 60px 30px;
+    }
+    .pagina-produto .container .item-produto h3 {
+        width: 179.2px;
+        margin: 0 0 3px 0.1px;
+    }
+    .footer img {
+        margin-right: 5px;
+    }
+    .copiright {
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 787px) {
+    .header {
+       position: relative;
+    }    
+    .header .grid-4 img {
+        margin: 10px 35% 0 ;
+    }
+    .header_menu ul li{
+        border: 4px solid #000; 
+        display: block;
+        text-align: center;
+        margin: 15px auto;
+    }
+    .introducao  {
+        background: url("../img/bg.jpg") no-repeat center;
+        background-size: cover;
+        padding: 0;
+        margin: 0;
+    }
+    h1 {
+        margin: 20px auto;
+        padding: 0;
+    }
+    .quote-externo {
+        margin-bottom: 30px;
+    }
+    .quote-externo p {
+        margin-bottom: 20px;
+    }
+    .qualidade .container .linhas {
+        display: none;
+    }
+    .qualidade .container img {
+        margin-bottom: 80px;
+    }
+    .qualidade-btn, .produto-btn, .portifolio-btn {
+        margin-top: 0;
+        padding-top: 0px;
+    }
+    .missao-sobre p{
+        margin: 20px auto;
+        max-width: 300px;
+    }   
+    .qualidades p {
+        margin: 0 auto;
+        padding: 0;
+        max-width: 250px;
+    }
+     .footer {
+        height: 450px;
+    }
+    .pagina-produto .container {
+        margin: 0px auto;
+    }
+    .pagina-produto .container .item-produto {
+        display: inline-block;
+        padding: 0;
+        margin: 50px auto;
+    }
+    .pagina-produto .container .item-produto img {
+        margin: 0px auto;
+        padding-bottom: 0px;
+    }
+    .pagina-produto .container .item-produto h2 {
+        top: -110px;
+        left: 70px;
+    }
+    .pagina-produto .container .item-produto h2::before {
+        margin: 10px 50px;
+    }
+    .pagina-produto .container .item-produto h2::after {
+        margin: 10px 50px;
+    } 
+    .pagina-produto .container .item-produto .info{
+        margin: 0;
+        height: 160px;
+        padding: 20px;
+    }
+    .pagina-produto .container .item-produto .info p {
+        margin: 0px;
+        padding-bottom: 15px;
+    }
+    .pagina-produto .container .item-produto .simbolo {
+        margin: 0px 0px;
+        padding: 0;
+    }
+    .pagina-produto .container .item-produto h3{
+        width: 127px;
+    }
+    .formulario {
+        margin-top: 50px;
+        padding: 0px;
+    }
+    .formulario form input, textarea {
+        width: 300px;
+    }
+    .item-form textarea {
+        width: 350px;
+        background-color: #000;
+        color: #fff;
+    }
+}
